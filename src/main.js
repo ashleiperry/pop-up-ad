@@ -4,6 +4,6 @@ import ReactDOM from 'react-dom';
 import Popup from './components/Popup';
 
 ReactDOM.render(
-  <Popup name= "Taylor Swift"/>,
+  <Popup/>,
   document.getElementById('app')
 );
