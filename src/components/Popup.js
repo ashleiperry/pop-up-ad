@@ -10,16 +10,16 @@ const Popup = props => {
     console.log('Form submitted');
   }
   return(
-    <div>
+    <div className= "advert">
       <div className="boxed">
         <i className="fa fa-times" aria-hidden="true" onClick={handleExit}></i>
         </div>
 
-      <h2>You have won tickets to see Taylor Swift!!</h2>
+      <h2>You have won tickets to see {props.name}!!</h2>
       <h4>Please enter your email so we can send you the tickets</h4>
       <form onSubmit={submit}>
-        <input type= "email" name= "email" placeholder= "Your email here" />
-        <input type= "submit" value= "CLAIM YOUR PRIZE" />
+        <input type= "email" className= "email" placeholder= "Your email here" />
+        <input type= "submit" className="button" value= "CLAIM YOUR PRIZE" />
       </form>
     </div>
   );

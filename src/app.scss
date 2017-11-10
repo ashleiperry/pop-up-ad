@@ -1,12 +1,25 @@
 /* Your styling here */
-h4 {
+.advert {
+  background-color: #DF49BE;
+  color: #F1D663;
   text-align: center;
+  padding: 20px;
+  width: 90%;
+  height: 75%;
+  border-radius: 20px;
+  margin: auto;
 }
 
-h2 {
-  text-align: center;
-}
 .boxed {
   text-align: right;
+  color: #98297D;
+}
 
+.email{
+  background-color: #F1D663;
+}
+.button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #55BCBB;
+  color: #DF49BE;
 }
